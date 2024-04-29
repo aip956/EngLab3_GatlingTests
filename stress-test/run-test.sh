@@ -11,4 +11,4 @@ sh $GATLING_BIN_DIR/gatling.sh -rm local -s EngLabStressTest \
 
 sleep 3
 
-curl -v "http://localhost:4000/counting-warriors"
+curl -v "http://localhost:8000/counting-warriors"
